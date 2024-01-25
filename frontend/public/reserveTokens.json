@@ -1,0 +1,41 @@
+{
+  "tokens": [
+    {
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "address": "0xCE34CC90aC933359717Bd57b1fC23d9c8e1d72ED",
+      "decimals": 6,
+      "chainId": 1337,
+      "logoURI": "/coins/usdc.svg",
+      "extensions": {
+        "isNative": false,
+        "isNativeWrapper": false
+      }
+    },
+    {
+      "symbol": "WETH",
+      "name": "WETH",
+      "address": "0x9d466DCa7F956a85Ad8DBEf6477BEFDB22961821",
+      "decimals": 18,
+      "chainId": 1337,
+      "logoURI": "/coins/eth.svg",
+      "extensions": {
+        "isNative": false,
+        "isNativeWrapper": true
+      }
+    },
+    {
+      "symbol": "WBTC",
+      "name": "Wrapped Bitcoin",
+      "address": "0x63b5aa19f89B019BB6c1CE5682D25ffb36C0a4b3",
+      "decimals": 8,
+      "chainId": 1337,
+      "logoURI": "/coins/wbtc.svg",
+      "extensions": {
+        "isNative": false,
+        "isNativeWrapper": false
+      }
+    }
+  ]
+}
+

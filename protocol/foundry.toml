@@ -1,0 +1,18 @@
+[profile.default]
+src = 'contracts/'                                                   
+test = 'foundry/test'                                                 
+out = 'foundry/out'                                                   
+libs = ['foundry/lib']                                                
+remappings = ['ds-test/=foundry/lib/ds-test/src/', 'forge-std/=foundry/lib/forge-std/src/', '@openzeppelin/=node_modules/@openzeppelin']   
+evm_version = 'istanbul'                                        
+solc_version = '0.6.12'                                      
+sender = '0x1BEeEeeEEeeEeeeeEeeEEEEEeeEeEeEEeEeEeEEe'         
+tx_origin = '0x1BEeEeeEEeeEeeeeEeeEEEEEeeEeEeEEeEeEeEEe'      
+initial_balance = '0xffffffffffffffffffffffff'                
+gas_limit = 9223372036854775800                               
+gas_price = 0                                                 
+block_timestamp = 0                                           
+gas_reports = ["*"]
+rpc_url = 'http://localhost:7545'
+verbosity = 3
+rpc_endpoints = { besu="http://127.0.0.1:7545" }

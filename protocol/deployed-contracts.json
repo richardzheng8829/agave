@@ -1,0 +1,835 @@
+{
+  "AToken": {
+    "xdai": {
+      "address": "0x3e2081400517E9eF8436401E0c06dC2cBe9eC2d2",
+      "deployer": "0xBF8d706C844F1849B063870a42417C20227276F6"
+    }
+  },
+  "StableDebtToken": {
+    "xdai": {
+      "address": "0x5D9a99C1E2B0D7B0a446688FFaFB5189baC7Dc09",
+      "deployer": "0xBF8d706C844F1849B063870a42417C20227276F6"
+    },
+    "besu": {
+      "address": "0x43c44B27376Afedee06Bae2A003e979FC3B3Da6C",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "VariableDebtToken": {
+    "xdai": {
+      "address": "0x9546320a15179d0F4ac6F5Dc0996C43Fa87325B0",
+      "deployer": "0xBF8d706C844F1849B063870a42417C20227276F6"
+    },
+    "besu": {
+      "address": "0x594ae5421f378b8B4AF9e758C461d2A1FF990BC5",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "DefaultReserveInterestRateStrategy": {
+    "xdai": {
+      "address": "0xF7f88000be29D179015fB2C5eE466743f6386EDC",
+      "deployer": "0xBF8d706C844F1849B063870a42417C20227276F6"
+    },
+    "besu": {
+      "address": "0xf5BCb721E585310fdCA01bcb99e052948c64E8e9",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "MintableERC20": {
+    "hardhat": {
+      "address": "0xD6C850aeBFDC46D7F4c207e445cC0d6B0919BDBe",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "besu": {
+      "address": "0xD26e19913ca16B5B59aF7f07472f97cC9eA3f12B",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "LendingPoolAddressesProvider": {
+    "hardhat": {
+      "address": "0x8B5B7a6055E54a36fF574bbE40cf2eA68d5554b3",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "xdai": {
+      "address": "0x3673C22153E363B1da69732c4E0aA71872Bbb87F",
+      "deployer": "0x50DF0d7676e31387827659bA7CfE03b563e8e6a1"
+    },
+    "rinkeby": {
+      "address": "0xFaBdD107940A957a831a2e14b4CFEa8029D49ff1",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0xa5664C7b9cE66dBF22d9fba8052c79000B308171",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "LendingPoolAddressesProviderRegistry": {
+    "hardhat": {
+      "address": "0x1d80315fac6aBd3EfeEbE97dEc44461ba7556160",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "xdai": {
+      "address": "0x4BaacD04B13523D5e81f398510238E7444E11744",
+      "deployer": "0x50DF0d7676e31387827659bA7CfE03b563e8e6a1"
+    },
+    "rinkeby": {
+      "address": "0xe1e670667ba891B8aF6E7998D8f45A07175415Aa",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0xb34Ce6A3b91668778d1a071E39dA6C85249A7fC5",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "ReserveLogic": {
+    "hardhat": {
+      "address": "0x52d3b94181f8654db2530b0fEe1B19173f519C52",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "xdai": {
+      "address": "0xaAf07A1B052049fA677EEabFC6a7e83b7301678f",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "rinkeby": {
+      "address": "0xE296d4D34353ce74032b8749e6c549711Dad5867",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0xAA60F37dCA08C9397ACBf96fDE4E21F5fc3B8bE1",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "GenericLogic": {
+    "hardhat": {
+      "address": "0xd15468525c35BDBC1eD8F2e09A00F8a173437f2f",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "xdai": {
+      "address": "0x2a3Da19ceCf5231c287260f74CD4098Ef154374f",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "rinkeby": {
+      "address": "0x263f8d7D01BF9c80889987f84E6f2C752216e988",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0xDD1bad1f8af4d90Dc2745489393dD84f9F4E0c51",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "ValidationLogic": {
+    "hardhat": {
+      "address": "0x7e35Eaf7e8FBd7887ad538D4A38Df5BbD073814a",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "xdai": {
+      "address": "0xDE41Aa7e5656d97Aa236460e4D59Daea807eAFDe",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "rinkeby": {
+      "address": "0xF2472c0FBB1b73a947fFFEa2922De3A86d58B08A",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0xE0947a39260Ffe15101F68b2Db09b082cC0D0D1e",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "LendingPoolImpl": {
+    "hardhat": {
+      "address": "0x5bcb88A0d20426e451332eE6C4324b0e663c50E0"
+    },
+    "xdai": {
+      "address": "0xDD6267CCCb38c3F6B0bC6bE373D80179C2Cda2EC"
+    },
+    "rinkeby": {
+      "address": "0x951f3c2d82d5B29A29C1FDaa65d3A7Cfa6A80125"
+    },
+    "besu": {
+      "address": "0x493b232B17C679105C512FD9e2F6fC498660d341"
+    }
+  },
+  "LendingPool": {
+    "hardhat": {
+      "address": "0x316315C223f8B06DF67DFFdec4C915836480749F"
+    },
+    "xdai": {
+      "address": "0x5E15d5E33d318dCEd84Bfe3F4EACe07909bE6d9c"
+    },
+    "rinkeby": {
+      "address": "0x2B314bbeD0DF4fbf06466D479224Cb5c68C3B640"
+    },
+    "besu": {
+      "address": "0xeCDf616e93E9FA4d8fC06085BB1ce32Ad1994442"
+    }
+  },
+  "LendingPoolConfiguratorImpl": {
+    "hardhat": {
+      "address": "0x53369fd4680FfE3DfF39Fc6DDa9CfbfD43daeA2E"
+    },
+    "xdai": {
+      "address": "0x577773e87CAd8d57Be16baAFFe457a1B30e7641F"
+    },
+    "rinkeby": {
+      "address": "0x73eB7df8191751928715607cc91A39Ee65FF414a"
+    },
+    "besu": {
+      "address": "0xf938C350F8f77B1019dAeA82FEE460f24beB1D17"
+    }
+  },
+  "LendingPoolConfigurator": {
+    "hardhat": {
+      "address": "0x489eFe9e2B653e0c26DC6F5820F6FaD565Bf7916"
+    },
+    "xdai": {
+      "address": "0x4a1ac23dC8df045524cf8b59B25D1ccAe2eA62F5"
+    },
+    "rinkeby": {
+      "address": "0x73eB7df8191751928715607cc91A39Ee65FF414a",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0xc7a64A3a008741D9f7E9AbFE69e6E1dF63154bce"
+    }
+  },
+  "StableAndVariableTokensHelper": {
+    "hardhat": {
+      "address": "0x58F132FBB86E21545A4Bace3C19f1C05d86d7A22",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "xdai": {
+      "address": "0x5E2014258bBB009f6551c76df7afccFcCa7E108e",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0x2294d13c1bF27cCE7d038767b7A7583c9e34CB17",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "ATokensAndRatesHelper": {
+    "hardhat": {
+      "address": "0xa4bcDF64Cdd5451b6ac3743B414124A6299B65FF",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "xdai": {
+      "address": "0xc99F3148df0c92DD4E192f15Ed6278D6ba75B7Bb",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0x61EF72b838aA46EBe2C2B265a2b64a4f5e75c438",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "AGVE": {
+    "hardhat": {
+      "address": "0x7c2C195CD6D34B8F845992d380aADB2730bB9C6F",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    }
+  },
+  "HNY": {
+    "hardhat": {
+      "address": "0x8858eeB3DfffA017D4BCE9801D340D36Cf895CCf",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    }
+  },
+  "WETH": {
+    "hardhat": {
+      "address": "0x0078371BDeDE8aAc7DeBfFf451B74c5EDB385Af7",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "besu": {
+      "address": "0x9d466DCa7F956a85Ad8DBEf6477BEFDB22961821",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "WETHMocked": {
+    "hardhat": {
+      "address": "0xf4e77E5Da47AC3125140c470c71cBca77B5c638c",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "besu": {
+      "address": "0xDC9A5FDC91468e4707b916d028Bd8eC9dd83e33e",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "WNATIVE": {
+    "hardhat": {
+      "address": "0xf4e77E5Da47AC3125140c470c71cBca77B5c638c",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "besu": {
+      "address": "0xfC96Dbd9dde95122033c6480d5e4340848a8E867",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "LINK": {
+    "hardhat": {
+      "address": "0xf784709d2317D872237C4bC22f867d1BAe2913AB",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "besu": {
+      "address": "0x9e5a377f8cC4e2d24D5F487850D5a4c8251fd35E",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "STAKE": {
+    "hardhat": {
+      "address": "0x3619DbE27d7c1e7E91aA738697Ae7Bc5FC3eACA5",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    }
+  },
+  "USDC": {
+    "hardhat": {
+      "address": "0x038B86d9d8FAFdd0a02ebd1A476432877b0107C8",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "besu": {
+      "address": "0xCE34CC90aC933359717Bd57b1fC23d9c8e1d72ED",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "WBTC": {
+    "hardhat": {
+      "address": "0x1A1FEe7EeD918BD762173e4dc5EfDB8a78C924A8",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "besu": {
+      "address": "0x63b5aa19f89B019BB6c1CE5682D25ffb36C0a4b3",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "USD": {
+    "hardhat": {
+      "address": "0x500D1d6A4c7D8Ae28240b47c8FCde034D827fD5e",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    }
+  },
+  "FOX": {
+    "hardhat": {
+      "address": "0xc4905364b78a742ccce7B890A89514061E47068D",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    }
+  },
+  "GNO": {
+    "hardhat": {
+      "address": "0xD6C850aeBFDC46D7F4c207e445cC0d6B0919BDBe",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "besu": {
+      "address": "0x0df4DdC201E9e539Ce8dd935E6917AA520c350bc",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "PriceOracle": {
+    "hardhat": {
+      "address": "0x22474D350EC2dA53D717E30b96e9a2B7628Ede5b",
+      "deployer": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+    },
+    "besu": {
+      "address": "0xb6479D00515C20c2b230c2e9090cc7D1cf109bad",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "AaveProtocolDataProvider": {
+    "xdai": {
+      "address": "0xBC01c7E3989a6011c1F9992a1BE7D58CCdDfe4c3",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    }
+  },
+  "stableDebtUSDC": {
+    "xdai": {
+      "address": "0xc7A83B684DA7676c3dFA63e061560365C5Cb15a0"
+    },
+    "besu": {
+      "address": "0x8a058680982539eA4Eb9f713A5e0c71cDaf83FEC"
+    }
+  },
+  "variableDebtUSDC": {
+    "xdai": {
+      "address": "0x655aaBd40686B0402A8AED6698285B8D9A61f833"
+    },
+    "besu": {
+      "address": "0xA2898bE8E4d80B70929fA50adB702686F9AAc896"
+    }
+  },
+  "stableDebtWXDAI": {
+    "xdai": {
+      "address": "0x15346aDbfE1ed17543f72d664DE96F707E4a7B16"
+    },
+    "besu": {
+      "address": "0xBb0831f8658A5646CaCBc3160eC3C83D8F368dbF"
+    }
+  },
+  "variableDebtWXDAI": {
+    "xdai": {
+      "address": "0x91A0beb56A2D746A9993307104941e5065d7ce1d"
+    },
+    "besu": {
+      "address": "0xEcf66555557A83C2074A3Da57B0EDBE899b9f605"
+    }
+  },
+  "agUSDC": {
+    "xdai": {
+      "address": "0x6a6A8F9951B07FE5EC750F5Aa14844B1dD872462"
+    },
+    "besu": {
+      "address": "0x963A4Ef8Cf6235F1E4Ed216ceC46132b41933123",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "strategyUSDC": {
+    "xdai": {
+      "address": "0xb3bcF34334d604F4119719D466E295E4DC581133"
+    },
+    "besu": {
+      "address": "0x4C70d8644403c2fAfD11aB3d7a1f9CeA6cca800C"
+    }
+  },
+  "agWXDAI": {
+    "xdai": {
+      "address": "0x5d0D1B231c90cB3e61A83f00C667f5Cd07dd6ee4"
+    },
+    "besu": {
+      "address": "0xa38abcbe0f2865F305dA4Ff0b13626b9f5D50652"
+    }
+  },
+  "strategyWXDAI": {
+    "xdai": {
+      "address": "0xC0cEAE0872c7177E339C272fae9E5fcFE05c2d75"
+    },
+    "besu": {
+      "address": "0xEb7ad7e581cE1f65043688cDA4990C1E6c7B7A1A"
+    }
+  },
+  "stableDebtLINK": {
+    "xdai": {
+      "address": "0x96726f1CeD91d2FC2Ee21D8903eDdBF7BA859001"
+    },
+    "besu": {
+      "address": "0x2DfF16bd6DaEC31c33844072bB832Bf8777a5fC3"
+    }
+  },
+  "variableDebtLINK": {
+    "xdai": {
+      "address": "0xcb9D84E195762581f80cf3E46ac476E6C4140dAb"
+    },
+    "besu": {
+      "address": "0x304628769a6457575D3e2B52DB8FED459052380f"
+    }
+  },
+  "stableDebtSTAKE": {
+    "xdai": {
+      "address": "0x4351d5c6c01d8b01778c2d87a3845C968F816295"
+    }
+  },
+  "variableDebtSTAKE": {
+    "xdai": {
+      "address": "0x4CdfA58B09AE42eC2033fe6CA4e24b5Eb074BB95"
+    }
+  },
+  "agLINK": {
+    "xdai": {
+      "address": "0xC36A4A65D271cde8c6A1E2C5321009f985162C74"
+    },
+    "besu": {
+      "address": "0x787421D42DeF64b35ca4C332F27473876a1e00Ec",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "strategyLINK": {
+    "xdai": {
+      "address": "0x0f86AC37797F19fb23A56164F609e25F53ea8043"
+    },
+    "besu": {
+      "address": "0x09FE1436eD2855A887Ad166129FF6abCe66212ba"
+    }
+  },
+  "agSTAKE": {
+    "xdai": {
+      "address": "0xCF02082E46073b6Efc2739F6741aC8FBBC7133D2"
+    }
+  },
+  "strategySTAKE": {
+    "xdai": {
+      "address": "0x56c7EE0AacbE3C2F008739994347430B5143bDaA"
+    }
+  },
+  "stableDebtGNO": {
+    "xdai": {
+      "address": "0xa4eFbc2204eD45BBe08E6Bea5D091E561D427a3A"
+    },
+    "besu": {
+      "address": "0x71B686496D541D8DC878e34558A3e01B6182fa0a"
+    }
+  },
+  "variableDebtGNO": {
+    "xdai": {
+      "address": "0xA5Fc8014F8f4B7C6d1111E123135fb4a48E70c66"
+    },
+    "besu": {
+      "address": "0xdD55eE9a00a99F4aA064AFf3b804e81F33ebABEE"
+    }
+  },
+  "stableDebtWBTC": {
+    "xdai": {
+      "address": "0x16121DD2E79b318f092883D8F40A7eE60d3AfE7b"
+    },
+    "besu": {
+      "address": "0xBEE1feb9C6d0956F1798C32c4D2B338e3Fbe3dAF"
+    }
+  },
+  "variableDebtWBTC": {
+    "xdai": {
+      "address": "0xA08C7a035F8e1aD93ace15B1de1F1ae7C4300464"
+    },
+    "besu": {
+      "address": "0x40f494D58F11c7A63949266455e0c6C5B85d5057"
+    }
+  },
+  "agGNO": {
+    "xdai": {
+      "address": "0x05CB3Cf9935F78a34D0912c3422DD12F2b25538A"
+    },
+    "besu": {
+      "address": "0xF21a267f3Edf163198cBD92888174B54475A617C",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "strategyGNO": {
+    "xdai": {
+      "address": "0xf785CC3324186DF3B00D5Ab1b895A345d15E8c2A"
+    },
+    "besu": {
+      "address": "0x67b676E4A5868a60adF6F6BAE3Cf3C9705b4EAAd"
+    }
+  },
+  "agWBTC": {
+    "xdai": {
+      "address": "0x64C8DfdF4385E8a1bC49aFf24977A1084412117B"
+    },
+    "besu": {
+      "address": "0xD7c757715032b67AfD8a42d95b2136ce4Ff269CC",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "strategyWBTC": {
+    "xdai": {
+      "address": "0x1b4D565301F90ECe0c9F4B50af00eC269B06E225"
+    },
+    "besu": {
+      "address": "0x9a7fa8A0650Cfc6504Db43DB3E211ac7d06254Ec"
+    }
+  },
+  "stableDebtWETH": {
+    "xdai": {
+      "address": "0xF9488401Abcf1A2943312b4047d6Fc7Fbe50b2C9"
+    },
+    "besu": {
+      "address": "0x9d0Ff8BC9858D2592ae7c39e13b3D61bA4127CBE"
+    }
+  },
+  "variableDebtWETH": {
+    "xdai": {
+      "address": "0x6fd4bC29f6dc14d8eAD37dB0116D55811e682EC8"
+    },
+    "besu": {
+      "address": "0x96df37167782c181E33CFA10e9D61Ee473646b0e"
+    }
+  },
+  "stableDebtFOX": {
+    "xdai": {
+      "address": "0x1dEFb0196c594347292D5edE6086BfAE5B820168"
+    }
+  },
+  "variableDebtFOX": {
+    "xdai": {
+      "address": "0xB832a4345687c0b0b96099fB4ADac82d16FC1692"
+    }
+  },
+  "agWETH": {
+    "xdai": {
+      "address": "0x9fC6aaCd739b3FCCB935fc2c7ac5958226e4cbaA"
+    },
+    "besu": {
+      "address": "0x100eA6ccAb58cB839075f4Db15050E2F9b5C006b",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "strategyWETH": {
+    "xdai": {
+      "address": "0xeBa01eB00D2F04e34c7FbEc7CB7E7b890f1F621D"
+    },
+    "besu": {
+      "address": "0xBc039Dc22683d97614cA8A9919cBCaEc3D9efAD8"
+    }
+  },
+  "agFOX": {
+    "xdai": {
+      "address": "0x702468Ea5fFC27f1C0f8b5A4D5ce92AD1f1Dd5b6"
+    }
+  },
+  "strategyFOX": {
+    "xdai": {
+      "address": "0xB579A630A61888AE292354609D1c85451827c40E"
+    }
+  },
+  "AgaveOracle": {
+    "xdai": {
+      "address": "0xe9E7153E03d1a77ee2aAf0A91e0D278e4F71B462",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0xF77F37a472475A5a37B4E5c0Fc104Cc81539AD9a",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "LendingRateOracle": {
+    "xdai": {
+      "address": "0x08da9F00ec4DF6CfDec457985F324ec4E10530d3",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0x115A685B292eBf1b0d23395826832C1C00A25288",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "LendingPoolCollateralManagerImpl": {
+    "xdai": {
+      "address": "0x897aac43B8F22BA093Ac1D7C6c36Cf91e458ee8C"
+    },
+    "besu": {
+      "address": "0x31521ffC5C4E5085EAE7901d22267409454Ca981"
+    }
+  },
+  "LendingPoolCollateralManager": {
+    "xdai": {
+      "address": "0x897aac43B8F22BA093Ac1D7C6c36Cf91e458ee8C",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0x31521ffC5C4E5085EAE7901d22267409454Ca981",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "WalletBalanceProvider": {
+    "xdai": {
+      "address": "0xc83259C1A02d7105A400706c3e1aDc054C5A1B87",
+      "deployer": "0x50DF0d7676e31387827659bA7CfE03b563e8e6a1"
+    },
+    "besu": {
+      "address": "0x8f21F573E5B84086A2cdf430f3eAA7510533f244",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "WETHGateway": {
+    "xdai": {
+      "address": "0xB48505A15E584E244e5E02bB72c4bDB0d13a9e59",
+      "deployer": "0xbaBf238430d13245BBf04BC50f44d533d308AD59"
+    },
+    "besu": {
+      "address": "0x850f581116f12df63235C1DF4570d3fEEC9ece60",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "USDT": {
+    "besu": {
+      "address": "0x7D6b8f50375f0F42AE861662ea90a64C20De4B4c",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "EURE": {
+    "besu": {
+      "address": "0x942CE20436d9ACaF979AD7a77f3Fc9A7501eE845",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "WSTETH": {
+    "besu": {
+      "address": "0xca75e29F72cD5f5B021300D516C722CDbF77e55A",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "SDAI": {
+    "besu": {
+      "address": "0xf9E9f62F5CcB8fbEEB78EEC5ed01d0D9979aa7f4",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "MockAggregator": {
+    "besu": {
+      "address": "0xB1AbaC429FeDaefd6b1cdC378FBcD6B28805569b",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "AgaveProtocolDataProvider": {
+    "besu": {
+      "address": "0x7a2C1239126314F57eb8a0006871a6709dBb8F4D"
+    }
+  },
+  "stableDebtsDAI": {
+    "besu": {
+      "address": "0xd1486230190429DD0828eC11ddbDF2eB04449AB0"
+    }
+  },
+  "variableDebtsDAI": {
+    "besu": {
+      "address": "0xb1E1c56baaE8d23115299d85999b5e5Ff7DF1DEE"
+    }
+  },
+  "stableDebtUSDT": {
+    "besu": {
+      "address": "0xa12290E85f6173255C3328B82AFa6a10Bf89C6dD"
+    }
+  },
+  "variableDebtUSDT": {
+    "besu": {
+      "address": "0x57afF6255ab8afB38a37155F0e30a8e7F4c74170"
+    }
+  },
+  "agsDAI": {
+    "besu": {
+      "address": "0xf798491cD886e6d350Bc65d1C2466BAf5B96FEfa",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "strategysDAI": {
+    "besu": {
+      "address": "0x6aA4C5FF1bd2648D342cC7D14F71dF9addeEd3a2"
+    }
+  },
+  "agUSDT": {
+    "besu": {
+      "address": "0x79F7C0c795D7580d9d4d45e37BdECBE9e7CD3Dd4",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "strategyUSDT": {
+    "besu": {
+      "address": "0x755fDb80Eb3D657c705D174B2821303CfE44A5B2"
+    }
+  },
+  "stableDebtEURe": {
+    "besu": {
+      "address": "0x6772C2f54dcF12e9A2b2a4B62a132E70d45108BD"
+    }
+  },
+  "variableDebtEURe": {
+    "besu": {
+      "address": "0x95b1face51573faCdba9A71428A51E1eE4f7D5Ff"
+    }
+  },
+  "stableDebtwstETH": {
+    "besu": {
+      "address": "0x659350Fb7Be456B58c67D87e52e6CC21a702A66a"
+    }
+  },
+  "variableDebtwstETH": {
+    "besu": {
+      "address": "0xdBE57B3AA709905bEc793550646C436e37E3c456"
+    }
+  },
+  "agEURe": {
+    "besu": {
+      "address": "0x0434DeBf8672E9360237E14fE4e3bdC628bc31A2",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "strategyEURe": {
+    "besu": {
+      "address": "0xc86E838B1F2dc60769eE01567D05b747fc9dCBfD"
+    }
+  },
+  "agwstETH": {
+    "besu": {
+      "address": "0xb60c29714146EA3539261f599Eb30f62904108Fa",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "strategywstETH": {
+    "besu": {
+      "address": "0xA9DD6Ea055791a990bA19CE07F402d77F1f22CA2"
+    }
+  },
+  "MockFlashLoanReceiver": {
+    "besu": {
+      "address": "0xdf80E872Da88AE6AD842b14151c288c3a64aDe4c"
+    }
+  },
+  "undefined": {
+    "besu": {
+      "address": "0x193b29Cf91169a15C0db0ACe43F6e48C93df121b"
+    }
+  },
+  "MockAggregatorUSDC": {
+    "besu": {
+      "address": "0x650bd999C98234CF355C7576bD93b50F1730c271",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "MockAggregatorWNATIVE": {
+    "besu": {
+      "address": "0x7F0Ff2DFB77CAed6cEF27E1895b140635b6776d1",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "MockAggregatorGNO": {
+    "besu": {
+      "address": "0x553720701859E073b4e5f2d6680A566d2c89df56",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "MockAggregatorWETH": {
+    "besu": {
+      "address": "0x3E2B51c53D2C038d2AD34a7D53B5d7851BCCB558",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "MockAggregatorLINK": {
+    "besu": {
+      "address": "0x911d3894A9203E259A32872A22353f5124888Ebe",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "MockAggregatorWBTC": {
+    "besu": {
+      "address": "0x95B7338414836EB3b6833A5CB1171e6C9B023DA8",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "MockAggregatorUSDT": {
+    "besu": {
+      "address": "0x043f05fcbc76Ad992cab99eBB61675495aCB0842",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "MockAggregatorEURe": {
+    "besu": {
+      "address": "0xeF118BE9fa7a11F74E326314De97c4842B348be7",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "MockAggregatorwstETH": {
+    "besu": {
+      "address": "0xe5Dfd3b182FC586675320EEF04be505f19767ea6",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "MockAggregatorsDAI": {
+    "besu": {
+      "address": "0x4bA3fA0C6C27865B2130c59e1f0918fD741C3907",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "DelegationAwareAToken": {
+    "besu": {
+      "address": "0xcfC4B378F77cbD5d1B2fd88205e25A3e6E4315B8",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  },
+  "agWNATIVE": {
+    "besu": {
+      "address": "0xB8edf7fcD58e6d78398bE6519ddcD2f9afeED929",
+      "deployer": "0x75E480dB528101a381Ce68544611C169Ad7EB342"
+    }
+  }
+}

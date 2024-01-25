@@ -1,0 +1,11 @@
+{
+  "100": {
+    "balancer-gnosis-chain-v2": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-gnosis-chain-v2"
+  },
+  "10200": {
+    "balancer-gnosis-chain-v2": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-gnosis-chain-v2"
+  },
+  "1337": {
+    "balancer-gnosis-chain-v2": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-gnosis-chain-v2"
+  }
+}
